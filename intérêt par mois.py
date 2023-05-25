@@ -16,5 +16,4 @@ n=int(input("entrer le nombre d'année"))
 print('le capital acquis avec intérêts est de', round(c(n*12))2), "euros au bout de",n,
 print("les intérêts gagnés au taux annuel de",taux,"% sont de",round(c(n*12)n))
 print("sans emplacement avec intérêts le capital acqui serait de",round((
-
 )))
