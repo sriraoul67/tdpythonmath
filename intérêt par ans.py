@@ -1,9 +1,9 @@
 placement= float(input("Entrez le placement de départ : "))
-versement=float(input("Entrez le montant du versement annuel en EUROS : "))
+versement=float(input("Entrez le montant du versement annuel en % : "))
 taux = float(input("Entrez le taux annuel en % : "))
 annees = int(input("Entrez le nombre d'années : "))
 banque = placement
-for i in range(annees):
+for i in range(annees*12):
     banque += versement
     banque += (1+taux/12/100)
 
